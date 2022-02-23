@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;900&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+
+
+  <style>
+    h1 {
+      font-size: 4rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Prompt', sans-serif;
+      color: white;
+      background: #202731;
+      overflow-x: hidden;
+    }
+
+    section {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 400px;
+      padding: 100px 20vw;
+
+
+    }
+
+    .blue {
+      background: #3c31dd;
+    }
+
+    .red {
+      background: #dd3f31;
+    }
+
+    .pink {
+      background: #ff0066;
+      overflow: hidden;
+    }
+
+    .dark {
+      background: #0f0f10;
+    }
+
+    .spacer {
+      aspect-ratio: 960/250;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .spacer0 {
+      aspect-ratio: 960/200;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .flip {
+      transform: rotate(180deg);
+    }
+
+    .layer0 {
+      background-image: url('obwave.svg');
+    }
+
+    .layer1 {
+      background-image: url('whitewave.svg');
+    }
+
+    .layer2 {
+      background-image: url('wbwave.svg');
+    }
+
+    .layer3 {
+      background-image: url('ccwave.svg');
+    }
+
+    .layer4 {
+      background-image: url('oblwave.svg');
+    }
+
+    .layer5 {
+      background-image: url('orang n black wave.svg');
+    }
+
+    .layer6 {
+      background-image: url('wblastwave path1.svg');
+    }
+
+    .blob-motion {
+      position: absolute;
+      transform: translateY(-20%);
+      z-index: 0;
+    }
+
+    .blob-content {
+      z-index: 1;
+    }
+
+  
+  </style>
+
+</head>
+
+<body>
+  <div class="spacer0 layer0"></div>
+  <section class="blue">
+    <h1>Nice curves</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis neque minima, quae sequi quidem fugit quisquam
+      beatae tempora, cumque odit ut, aut inventore incidunt ipsum laborum vitae! Maxime, beatae animi.</p>
+  </section>
+
+  <div class="spacer layer1"></div>
+
+  <div class="spacer layer2"></div>
+
+  <section>
+    <h1>Nice curves</h1>
+    <p>Corrupti fugit laborum quasi, consequuntur natus commodi fugiat explicabo aliquid aperiam voluptas mollitia
+      cumque, nostrum doloremque nihil impedit inventore odit in pariatur ipsa possimus recusandae odio. Aliquam quaerat
+      cum voluptas?</p>
+  </section>
+
+  <div class="spacer layer3"></div>
+
+  <section class="pink">
+    <div class="blob-content">
+      <h1>Nice curves</h1>
+      <p>Saepe, itaque sequi. Numquam perspiciatis labore veritatis. Officia, repellat? Impedit deleniti in recusandae
+        culpa est totam a voluptatibus aliquam quisquam iste adipisci quae dolorem numquam animi vitae, laborum, illum
+        eligendi!</p>
+    </div>
+
+    <svg class="blob-motion" id="visual" viewBox="0 0 960 540" width="960" height="540"
+      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+      <g transform="translate(494.1593859595325 142.74724005850402)">
+        <path id="blob1"
+          d="M65.9 -108.6C86.1 -102.4 103.7 -86.2 101.6 -66.4C99.6 -46.7 77.9 -23.3 77.1 -0.5C76.2 22.3 96.1 44.7 94.2 57.5C92.2 70.4 68.3 73.7 49 87.1C29.7 100.4 14.8 123.7 -1.2 125.9C-17.3 128 -34.7 109 -51.1 94C-67.6 79 -83.2 68 -99.5 53C-115.8 38 -132.9 19 -129.7 1.8C-126.6 -15.3 -103.1 -30.7 -83.3 -39.6C-63.4 -48.6 -47.2 -51.1 -33.9 -61.3C-20.7 -71.5 -10.3 -89.2 6.2 -100.1C22.8 -110.9 45.7 -114.8 65.9 -108.6"
+          fill="#BB004B">
+        </path>
+      </g>
+      <g transform="translate(487.40667519382146 139.13016206448324)" style="visibility: hidden">
+        <path id="blob2"
+          d="M50.5 -88C66.4 -78.4 80.8 -66.7 85.3 -51.7C89.8 -36.7 84.4 -18.3 77.9 -3.8C71.4 10.8 63.9 21.7 61 39.6C58.2 57.5 60.1 82.4 50.7 102C41.3 121.6 20.7 135.8 -0.2 136.1C-21 136.4 -42 122.7 -60.3 108.3C-78.7 93.9 -94.3 78.7 -93.2 60.5C-92.1 42.3 -74.2 21.2 -76 -1.1C-77.9 -23.3 -99.6 -46.7 -101.6 -66.4C-103.7 -86.2 -86.1 -102.4 -65.9 -109.6C-45.7 -116.8 -22.8 -114.9 -2.8 -110.1C17.3 -105.4 34.7 -97.7 50.5 -88"
+          fill="#BB004B">
+        </path>
+      </g>
+    </svg>
+    <script>
+      const tween = KUTE.fromTo(
+        '#blob1',
+        { path: '#blob1' },
+        { path: '#blob2' },
+        { repeat: 999, duration: 3000, yoyo: true }
+      ).start();
+    </script>
+  </section>
+
+  <div class="spacer layer3 flip"></div>
+
+  <section>
+    <h1>Nice curves</h1>
+    <p>Consequatur facilis odio provident amet dolore magnam nobis, rem blanditiis officiis laborum officia ducimus
+      natus molestiae esse ab et, pariatur libero perferendis. Beatae nemo rem eos nulla! Tempore, reprehenderit aut!
+    </p>
+  </section>
+
+  <div class="spacer layer4 flip"></div>
+
+  <section class="red">
+    <h1>Nice curves</h1>
+    <p>Iure, explicabo amet asperiores temporibus fugiat corrupti hic consequatur optio facilis voluptas maiores
+      consequuntur nemo quisquam magnam laborum quia ab ex eveniet eaque quas qui. Ea ipsum atque quas magni?</p>
+  </section>
+
+  <div class="spacer layer5"></div>
+
+  <section class="dark">
+    <h1>Nice curves</h1>
+    <p>Ad rem ullam iusto reiciendis, laudantium, neque dignissimos magnam sequi vel quis possimus consectetur
+      consequuntur velit enim amet dolore, atque ipsum blanditiis! Numquam ratione sit fugiat culpa incidunt atque
+      perspiciatis.</p>
+  </section>
+
+  <div class="spacer layer6"></div> 
+
+</body>
+
+</html>
